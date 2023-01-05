@@ -62,50 +62,50 @@ button:hover {
     display: flex;
 }
 
-.gallery_img:hover {
+/*.gallery_img:hover {
     width: auto;
     height: auto;
     max-height: fit-content;
     display: block;
     padding: 10px;
     background-color: rgb(102, 49, 49);
-}
+}*/
 
 .gallery_item--1 {
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 5;
 }
 
 .gallery_item--2 {
-    grid-column-start: 5;
+    grid-column-start: 1;
     grid-column-end: 9;
-    grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 9;
 }
 
 .gallery_item--3 {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 9;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 12;
 }
-.gallery_item--4 {
+/*.gallery_item--4 {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 5;
     grid-row-end: 9;
-}
+}*/
 
-.gallery_item--5 {
+/*.gallery_item--5 {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 4;
     grid-row-end: 8;
-}
+}*/
 
-.gallery_item--6 {
+/*.gallery_item--6 {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 8;
@@ -115,5 +115,8 @@ button:hover {
 .fig6{
     justify-content: center;
     align-items: center;
-}
+}*/
 
+h1{
+    text-align: center;
+}
